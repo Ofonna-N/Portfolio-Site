@@ -35,4 +35,29 @@ nav
             color: variables.$font-color;
         }
     }
+
+    
+}
+
+@media screen and (max-width:791px) 
+{
+    nav
+    {
+        flex-direction: column;
+        // justify-content: center;
+
+        h1{
+            position: static;
+            // right: 0;
+            transform: translate(0, 0);
+            font-size: 1.5rem;
+        }
+
+        .logo-img
+        {
+            display: none;
+        }
+    }
+
+    
 }

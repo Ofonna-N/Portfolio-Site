@@ -42,6 +42,15 @@ main .intro {
   text-align: center;
   margin-bottom: 8em;
 }
+@media screen and (max-width: 467px) {
+  main {
+    margin-top: 5em;
+    width: 90%;
+  }
+  main .intro {
+    margin-bottom: 3em;
+  }
+}
 nav {
   display: flex;
   align-items: center;
@@ -71,6 +80,19 @@ nav .social-links a {
   color: #a7a7a7;
 }
 
+@media screen and (max-width: 791px) {
+  nav {
+    flex-direction: column;
+  }
+  nav h1 {
+    position: static;
+    transform: translate(0, 0);
+    font-size: 1.5rem;
+  }
+  nav .logo-img {
+    display: none;
+  }
+}
 .site-content .tab-container {
   width: 70%;
   margin-inline: auto;
@@ -78,6 +100,7 @@ nav .social-links a {
 .site-content .tab-container .tabs {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 4em;
   gap: 2em;
 }
@@ -97,11 +120,10 @@ nav .social-links a {
   background-color: #404040;
 }
 .site-content .tab-container .tabs .active {
-  background-color: #0D0D0D;
   color: #ffffff;
   text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.25);
   border-style: solid;
-  border-width: 1px 1px 1px 1px;
+  border-width: 2px 2px 2px 2px;
   border-color: #5fa9e9;
 }
 .site-content .tab-container .tabs + hr {
@@ -139,6 +161,14 @@ nav .social-links a {
 .site-content .tab-container .tab-content-container .tab-content .project-card .project-title > .go-to-links > a:hover {
   background-color: #0D0D0D;
 }
+@media screen and (max-width: 775px) {
+  .site-content .tab-container .tab-content-container .tab-content .project-card .project-title {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.4em;
+    margin-bottom: 1em;
+  }
+}
 .site-content .tab-container .tab-content-container .tab-content .project-card > hr {
   margin-bottom: 1em;
 }
@@ -149,6 +179,17 @@ nav .social-links a {
 }
 .site-content .tab-container .tab-content-container .tab-content .project-card .project-showcase iframe {
   box-shadow: 2px 2px 3px 1px black;
+}
+@media screen and (max-width: 791px) {
+  .site-content .tab-container .tab-content-container .tab-content .project-card .project-showcase iframe {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .site-content .tab-container .tab-content-container .tab-content .project-card .project-showcase {
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
 }
 .site-content .tab-container .tab-content-container .tab-content .project-card .project-tags {
   display: flex;
@@ -181,4 +222,13 @@ nav .social-links a {
 }
 .site-content .tab-container .tab-content-container .active {
   display: block;
+}
+.site-content .tab-container .coming-soon-txt {
+  text-align: center;
+  width: 100%;
+}
+@media screen and (max-width: 467px) {
+  .site-content .tab-container {
+    width: 90%;
+  }
 }/*# sourceMappingURL=index.css.map */
