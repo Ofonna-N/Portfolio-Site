@@ -1,0 +1,23 @@
+@use './variables';
+main
+{
+    width: 70%;
+    // background-color: aquamarine;
+    margin: auto;
+    margin-top: 5em;
+
+    .intro
+    {
+        // width: 90%;
+        // margin-inline: auto;
+        // margin-bottom: 3em;
+        padding: 2em;
+        text-align: center;
+        
+    }
+
+    > hr 
+    {
+        @extend %hr-shared;
+    }
+}

@@ -1,0 +1,18 @@
+
+$primary-font: 'Poppins', sans-serif;
+$font-color:#d1d1d1;
+$active-bg-color:#5fa9e9;
+$active-txt-color:#ffffff;
+
+$tag-color-title: #505050;
+$tag-color-builddate: #1081c2;
+$tag-color-engine: #ee7a3b;
+$tag-color-language: #4ec820;
+
+
+%hr-shared
+{
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-color: $active-bg-color;
+}

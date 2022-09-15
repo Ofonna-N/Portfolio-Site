@@ -1,0 +1,33 @@
+
+@use './variables';
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+
+    h1{
+        font-size: 3rem;
+    }
+
+    .logo-img
+    {
+        width: 5em;
+        padding: 0.25em;
+    }
+
+    .social-links
+    {
+        display: flex;
+        gap: 0.5em;
+        margin-right: 1em;
+
+        font-size: 2rem;
+
+        a{
+            color: variables.$font-color;
+        }
+    }
+}

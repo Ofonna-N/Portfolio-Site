@@ -1,0 +1,152 @@
+.tab-container .tabs + hr, .tab-container .tab-content > hr, main > hr {
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  border-color: #5fa9e9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d1d20;
+  color: #d1d1d1;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  width: 70%;
+  margin: auto;
+  margin-top: 5em;
+}
+main .intro {
+  padding: 2em;
+  text-align: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+nav h1 {
+  font-size: 3rem;
+}
+nav .logo-img {
+  width: 5em;
+  padding: 0.25em;
+}
+nav .social-links {
+  display: flex;
+  gap: 0.5em;
+  margin-right: 1em;
+  font-size: 2rem;
+}
+nav .social-links a {
+  color: #d1d1d1;
+}
+
+.tab-container .tabs {
+  display: flex;
+  justify-content: center;
+}
+.tab-container .tabs > .tab {
+  text-decoration: none;
+  color: #d1d1d1;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1rem;
+  border-style: none;
+  border-radius: 5px 5px 0 0;
+  padding: 0.8em 2em;
+  cursor: pointer;
+}
+.tab-container .tabs .tab:not(.active):hover {
+  background-color: #404040;
+}
+.tab-container .tabs .active {
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.25);
+  border-style: solid;
+  border-width: 1px 1px 0 1px;
+  border-color: #5fa9e9;
+}
+.tab-container .tabs + hr {
+  margin-bottom: 2em;
+}
+.tab-container .tab-content {
+  margin-inline: auto;
+}
+.tab-container .tab-content > hr {
+  width: 60%;
+  margin-inline: auto;
+}
+.tab-container .tab-content .project-card {
+  padding: 1em;
+  margin-bottom: 3em;
+  box-shadow: 3px 3px 5px 1px black;
+}
+.tab-container .tab-content .project-card .project-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tab-container .tab-content .project-card .project-title > .go-to-links > a {
+  padding: 0.25em 2em;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0);
+  color: #d1d1d1;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  cursor: pointer;
+}
+.tab-container .tab-content .project-card .project-title > .go-to-links > a:hover {
+  background-color: #0D0D0D;
+}
+.tab-container .tab-content .project-card > hr {
+  margin-bottom: 1em;
+}
+.tab-container .tab-content .project-card .project-showcase {
+  display: flex;
+  gap: 0.5em;
+  margin-bottom: 0.35em;
+}
+.tab-container .tab-content .project-card .project-showcase iframe {
+  box-shadow: 2px 2px 3px 1px black;
+}
+.tab-container .tab-content .project-card .project-tags {
+  display: flex;
+  gap: 0.25em;
+}
+.tab-container .tab-content .project-card .project-tags .project-tag {
+  display: flex;
+  border-radius: 3px;
+  background-color: #505050;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  overflow: hidden;
+  font-size: 0.8em;
+}
+.tab-container .tab-content .project-card .project-tags .project-tag .project-tag-title {
+  padding: 0 0.1em 0 0.1em;
+}
+.tab-container .tab-content .project-card .project-tags .project-tag .project-tag-content {
+  padding: 0 0.1em 0 0.1em;
+}
+.tab-container .tab-content .project-card .project-tags .project-tag .tag-builddate {
+  background-color: #1081c2;
+}
+.tab-container .tab-content .project-card .project-tags .project-tag .tag-engine {
+  background-color: #ee7a3b;
+}
+.tab-container .tab-content .project-card .project-tags .project-tag .tag-language {
+  background-color: #4ec820;
+}/*# sourceMappingURL=index.css.map */
