@@ -11,31 +11,45 @@
 }
 
 body {
-  background-color: #1d1d20;
-  color: #d1d1d1;
+  background-color: #212121;
+  color: #a7a7a7;
 }
 
 html {
   font-family: "Poppins", sans-serif;
 }
 
+h1 {
+  color: white;
+}
+
 main {
   width: 70%;
   margin: auto;
-  margin-top: 5em;
+  margin-top: 10em;
+}
+main > h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
 }
 main .intro {
   padding: 2em;
   text-align: center;
+  margin-bottom: 8em;
 }
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 1em;
+  background-color: #191919;
 }
 nav h1 {
-  font-size: 3rem;
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 0);
+  font-size: 1.5rem;
 }
 nav .logo-img {
   width: 5em;
@@ -48,20 +62,21 @@ nav .social-links {
   font-size: 2rem;
 }
 nav .social-links a {
-  color: #d1d1d1;
+  color: #a7a7a7;
 }
 
 .tab-container .tabs {
   display: flex;
   justify-content: center;
+  margin-bottom: 4em;
 }
 .tab-container .tabs > .tab {
   text-decoration: none;
-  color: #d1d1d1;
+  color: #a7a7a7;
   background-color: rgba(0, 0, 0, 0);
   font-size: 1rem;
   border-style: none;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 5px 5px;
   padding: 0.8em 2em;
   cursor: pointer;
 }
@@ -73,7 +88,7 @@ nav .social-links a {
   color: #ffffff;
   text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.25);
   border-style: solid;
-  border-width: 1px 1px 0 1px;
+  border-width: 1px 1px 1px 1px;
   border-color: #5fa9e9;
 }
 .tab-container .tabs + hr {
@@ -100,7 +115,7 @@ nav .social-links a {
   padding: 0.25em 2em;
   font-size: 1rem;
   background-color: rgba(0, 0, 0, 0);
-  color: #d1d1d1;
+  color: #a7a7a7;
   text-decoration: none;
   border-style: solid;
   border-width: 1px;

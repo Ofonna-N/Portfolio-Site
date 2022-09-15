@@ -9,11 +9,16 @@
 
 body
 {
-    background-color: #1d1d20;
+    background-color: variables.$background-color;
     color: variables.$font-color;
 }
 
 html
 {
     font-family: variables.$primary-font;
+}
+
+h1
+{
+    color: variables.$header-color;
 }
