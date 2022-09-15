@@ -159,6 +159,35 @@
                         }
                     }
 
+                    ul
+                    {
+                        margin-left: 1em;
+
+                         a 
+                        {
+                            text-decoration: none;
+                            font-weight: bolder;
+                            font-style: italic;
+                            color: #0DAB76;
+                        }
+                    }
+
+                    h1
+                    {
+                        > span
+                        {
+                            font-size: 1.1rem;
+                            font-weight: 300;
+                        }
+                    }
+
+                    .skill-bar
+                    {
+                        border-style: solid;
+                        border-color: white;
+                        border-width: 1px;
+                    }
+                    
                     @media screen and (max-width:1023px) 
                     {
                         .project-showcase

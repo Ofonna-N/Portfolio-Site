@@ -52,6 +52,9 @@ main .intro {
   }
 }
 nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -78,6 +81,10 @@ nav .social-links {
 }
 nav .social-links a {
   color: #a7a7a7;
+  transition: all 0.25s;
+}
+nav .social-links a:hover {
+  transform: scale(1.5, 1.5);
 }
 
 @media screen and (max-width: 791px) {
@@ -184,6 +191,24 @@ nav .social-links a {
   .site-content .tab-container .tab-content-container .tab-content .project-card .project-showcase iframe {
     width: 100%;
   }
+}
+.site-content .tab-container .tab-content-container .tab-content .project-card ul {
+  margin-left: 1em;
+}
+.site-content .tab-container .tab-content-container .tab-content .project-card ul a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-style: italic;
+  color: #0DAB76;
+}
+.site-content .tab-container .tab-content-container .tab-content .project-card h1 > span {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.site-content .tab-container .tab-content-container .tab-content .project-card .skill-bar {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
 }
 @media screen and (max-width: 1023px) {
   .site-content .tab-container .tab-content-container .tab-content .project-card .project-showcase {
