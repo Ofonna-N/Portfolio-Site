@@ -209,15 +209,16 @@
                             width: fit-content;
                             overflow: hidden;
                             font-size: 0.8em;
+                            color: white;
                             // padding: 0.2em;
                             .project-tag-title
                             {
-                                padding: 0 0.1em 0 0.1em;
+                                padding: 0 0.2em 0 0.5em;
                             }
 
                             .project-tag-content
                             {
-                                padding: 0 0.1em 0 0.1em;
+                                padding: 0 0.5em 0 0.2em;
                             }
 
                             .tag-builddate

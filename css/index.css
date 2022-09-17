@@ -229,12 +229,13 @@ nav .social-links a:hover {
   width: fit-content;
   overflow: hidden;
   font-size: 0.8em;
+  color: white;
 }
 .site-content .tab-container .tab-content-container .tab-content .project-card .project-tags .project-tag .project-tag-title {
-  padding: 0 0.1em 0 0.1em;
+  padding: 0 0.2em 0 0.5em;
 }
 .site-content .tab-container .tab-content-container .tab-content .project-card .project-tags .project-tag .project-tag-content {
-  padding: 0 0.1em 0 0.1em;
+  padding: 0 0.5em 0 0.2em;
 }
 .site-content .tab-container .tab-content-container .tab-content .project-card .project-tags .project-tag .tag-builddate {
   background-color: #1081c2;
